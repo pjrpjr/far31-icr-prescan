@@ -3,7 +3,8 @@
  * Update CONTACT_EMAIL once the isolated AgentMail inbox is provisioned.
  */
 window.PRESCAN_CONFIG = {
-  CONTACT_EMAIL: "w5gbs570gu-csa@agentmail.to",
+  CANONICAL_URL: "https://far31prescan.com/",
+  CONTACT_EMAIL: "prep@far31prescan.com",
   SENDER_IDENTITY: "DOT FAR 31 Pre-Scan Support (Independent Non-CPA Financial Data Compilation Service)",
   FIXED_FEE_USD: 1695,
   SAFE_HARBOR_RATE: 110.0,

@@ -104,7 +104,7 @@
   }
 
   function populateStaticConfig() {
-    const email = CFG.CONTACT_EMAIL || "w5gbs570gu-csa@agentmail.to";
+    const email = CFG.CONTACT_EMAIL || "prep@far31prescan.com";
     if (els.displayContactEmail) els.displayContactEmail.textContent = email;
     if (els.footerContactEmail) els.footerContactEmail.textContent = email;
     if (els.displaySenderIdentity) {
@@ -459,7 +459,7 @@
   }
 
   function updateCtaMailto(result) {
-    const email = CFG.CONTACT_EMAIL || "w5gbs570gu-csa@agentmail.to";
+    const email = CFG.CONTACT_EMAIL || "prep@far31prescan.com";
     const firm = (els.ctaFirmName && els.ctaFirmName.value.trim()) || "[Your A&E Firm Name]";
     const role = (els.ctaSenderRole && els.ctaSenderRole.value.trim()) || "[Principal / Controller]";
 
@@ -571,7 +571,7 @@
     });
 
     els.btnCopyCta.addEventListener("click", async () => {
-      const email = CFG.CONTACT_EMAIL || "w5gbs570gu-csa@agentmail.to";
+      const email = CFG.CONTACT_EMAIL || "prep@far31prescan.com";
       const payload = "To: " + email + "\n\n" + (els.ctaPreviewBody.value || "");
       try {
         await navigator.clipboard.writeText(payload);
