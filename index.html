@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15-Second Anonymous FAR Part 31 / NCM / FCCM Pre-Scan | DOT A&amp;E Firms</title>
+  <meta name="description" content="100% browser-local FAR Part 31 indirect cost rate pre-scan for state DOT prequalified A&amp;E firms. Upload account numbers and amounts only — zero employee names, zero SSNs.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="privacy-bar">
+    <span>100% Browser-Local. Upload account numbers &amp; amounts only — zero employee names, zero SSNs. Zero CSV data ever leaves your browser.</span>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-row">
+      <a href="#top" class="brand">
+        <span class="brand-badge">FAR 31.205</span>
+        <span>DOT Indirect Cost Rate Pre-Scan</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#scanner">15-Sec Pre-Scan</a>
+        <a href="#offer">$1,695 Workpaper Pack</a>
+        <a href="#disclosures">Compliance &amp; Disclosures</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-eyebrow">23 U.S.C. § 112(b)(2) &bull; 23 CFR 172.11 &bull; FAR Part 31</span>
+          <h1>See What Leaving the 110% Safe Harbor Is Actually Worth in 15 Seconds</h1>
+          <p class="hero-sub">
+            Built for QuickBooks, Deltek Ajera, and BQE CORE engineering firms on state DOT rosters.
+            Scrub unallowable accounts locally in your browser, apply FDOT statewide cap limits or NCDOT &lt;$500k rules,
+            and download a line-by-line traceability workpaper sample with zero employee PII uploaded.
+          </p>
+          <div class="hero-actions">
+            <a href="#scanner" class="btn btn-primary">Run 15-Second Anonymous Pre-Scan</a>
+            <a href="#offer" class="btn btn-outline-light">$1,695 Fixed-Fee Workpaper Package</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="2026 Regulatory Benchmarks">
+          <p class="hero-card-title">Verified Regulatory Benchmarks</p>
+          <div class="bench-row">
+            <span class="bench-label">FHWA Safe Harbor Baseline</span>
+            <span class="bench-val">110.00%</span>
+          </div>
+          <div class="bench-row">
+            <span class="bench-label">FDOT Home Office Statewide Cap (&lt;$1M)</span>
+            <span class="bench-val good">173.36%</span>
+          </div>
+          <div class="bench-row">
+            <span class="bench-label">FDOT Field Office Statewide Cap (&lt;$1M)</span>
+            <span class="bench-val good">129.20%</span>
+          </div>
+          <div class="bench-row">
+            <span class="bench-label">FDOT Statewide FCCM Cap</span>
+            <span class="bench-val">0.81%</span>
+          </div>
+          <div class="bench-row">
+            <span class="bench-label">NCDOT Self-Cert Threshold</span>
+            <span class="bench-val">&lt;$500,000</span>
+          </div>
+          <div class="bench-row">
+            <span class="bench-label">Workpaper Package (FAR 31.205-33)</span>
+            <span class="bench-val good">$1,695 Fixed</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="scanner">
+      <div class="container">
+        <div class="section-header">
+          <h2>15-Second Browser-Local FAR Part 31 Pre-Scan</h2>
+          <p>
+            Select your DOT jurisdiction path, load a 1-click sample or drop an anonymous Trial Balance CSV
+            (<strong>Account Code, Account Name, Amount</strong> only — no employee names or SSNs), and inspect every
+            <code>FAR 31.205-X</code> adjustment immediately.
+          </p>
+        </div>
+
+        <div class="panel">
+          <span class="step-label">Step 1 &bull; Select Jurisdiction / Track &amp; Office Basis</span>
+          <div class="mode-grid" role="radiogroup" aria-label="Jurisdiction Mode Selector">
+            <label class="mode-card active" data-mode="FL_FDOT_UNDER_1M">
+              <input type="radio" name="jurisdiction" value="FL_FDOT_UNDER_1M" checked>
+              <div class="mode-title">Florida FDOT Self-Cert (&lt;$1M, Statewide Cap Applied)</div>
+              <div class="mode-desc">Form 375-030-51 path. Truncates effective claimable rate at 173.36% Home / 129.20% Field and 0.81% FCCM.</div>
+            </label>
+
+            <label class="mode-card" data-mode="NC_NCDOT_UNDER_500K">
+              <input type="radio" name="jurisdiction" value="NC_NCDOT_UNDER_500K">
+              <div class="mode-title">North Carolina NCDOT Self-Cert (&lt;$500k)</div>
+              <div class="mode-desc">For projected annual contracts &lt;$500,000. NCDOT retains the right to request an independent CPA audit anytime.</div>
+            </label>
+
+            <label class="mode-card" data-mode="TRACK_B_PRE_AUDIT">
+              <input type="radio" name="jurisdiction" value="TRACK_B_PRE_AUDIT">
+              <div class="mode-title">Track B Mandatory CPA Audit Pre-Cleanup (&gt;= $1M / Multi-State)</div>
+              <div class="mode-desc">Pre-audit GL scrubbing &amp; AASHTO ICQ prep to reduce external CPA hours. Independent CPA engagement still required.</div>
+            </label>
+          </div>
+
+          <div class="controls-row">
+            <div class="office-toggle">
+              <span class="sample-label">Office Rate Basis:</span>
+              <div class="segmented" role="group" aria-label="Office Type">
+                <button type="button" class="active" data-office="home" id="btn-office-home">Home Office (173.36% FL Cap)</button>
+                <button type="button" data-office="field" id="btn-office-field">Field Office (129.20% FL Cap)</button>
+              </div>
+            </div>
+
+            <div class="sample-buttons">
+              <span class="sample-label">1-Click Samples:</span>
+              <button type="button" class="btn btn-outline btn-sm" id="sample-fl">QuickBooks FL Sample</button>
+              <button type="button" class="btn btn-outline btn-sm" id="sample-nc">Ajera NC Sample</button>
+              <button type="button" class="btn btn-outline btn-sm" id="sample-track-b">BQE CORE Track B Sample</button>
+            </div>
+          </div>
+
+          <span class="step-label">Step 2 &bull; Drop Anonymous Trial Balance CSV &amp; Optional Modeling Inputs</span>
+          <div class="input-split">
+            <div class="dropzone" id="csv-dropzone" tabindex="0" role="button" aria-label="Upload Trial Balance CSV">
+              <div class="dropzone-title">Drag &amp; drop Trial Balance CSV here, or click to select file</div>
+              <div class="dropzone-sub">
+                Supports QuickBooks, Deltek Ajera, BQE CORE, and generic 3-col / 4-col (Debit/Credit) CSVs.<br>
+                <strong>100% Browser-Local</strong> — built-in PII scanner blocks SSNs, EINs, emails, and employee name columns before processing.
+              </div>
+              <input type="file" id="csv-file-input" accept=".csv,text/csv" class="hidden">
+              <div id="active-file-pill" class="file-pill hidden"></div>
+            </div>
+
+            <div class="param-grid">
+              <div class="field">
+                <label for="input-direct-labor">Direct Labor Base ($ optional override)</label>
+                <input type="number" id="input-direct-labor" class="mono" placeholder="Auto from CSV" min="0" step="1000">
+              </div>
+              <div class="field">
+                <label for="input-asset-nbv">Net Book Value of Assets ($ for FCCM)</label>
+                <input type="number" id="input-asset-nbv" class="mono" placeholder="e.g. 185000" min="0" step="1000" value="185000">
+              </div>
+              <div class="field">
+                <label for="input-dot-billings">Annual DOT Direct Labor Billings ($)</label>
+                <input type="number" id="input-dot-billings" class="mono" placeholder="e.g. 320000" min="0" step="5000" value="320000">
+              </div>
+              <div class="field">
+                <label for="input-exec-comp">Top Exec Comp ($ optional, zero names)</label>
+                <input type="number" id="input-exec-comp" class="mono" placeholder="e.g. 245000" min="0" step="1000">
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Alerts -->
+          <div id="alert-pii" class="alert alert-red hidden" role="alert"></div>
+          <div id="alert-fdot-cap" class="alert alert-amber hidden" role="status"></div>
+          <div id="alert-ncdot-right" class="alert alert-amber hidden" role="status"></div>
+          <div id="alert-track-b" class="alert alert-blue hidden" role="status"></div>
+
+          <!-- Results Panel -->
+          <div id="results-panel">
+            <span class="step-label">Step 3 &bull; Instant Scrubbed Rate &amp; Line-by-Line FAR 31 Results</span>
+            <div class="kpi-grid">
+              <div class="kpi-card">
+                <div class="kpi-label">FHWA Safe Harbor</div>
+                <div class="kpi-value" id="kpi-safe-harbor">110.00%</div>
+                <div class="kpi-sub">23 U.S.C. § 112(b)(2) / 23 CFR 172.11</div>
+              </div>
+
+              <div class="kpi-card">
+                <div class="kpi-label">Scrubbed FAR 31 Net ICR</div>
+                <div class="kpi-value" id="kpi-scrubbed-icr">--</div>
+                <div class="kpi-sub" id="kpi-unadjusted-sub">Unadjusted: --</div>
+              </div>
+
+              <div class="kpi-card highlight">
+                <div class="kpi-label">Effective Claimable Rate</div>
+                <div class="kpi-value" id="kpi-effective-rate">--</div>
+                <div class="kpi-sub" id="kpi-effective-sub">Net spread vs Safe Harbor: --</div>
+              </div>
+
+              <div class="kpi-card highlight">
+                <div class="kpi-label">Projected 12-Month Uplift</div>
+                <div class="kpi-value" id="kpi-uplift">--</div>
+                <div class="kpi-sub" id="kpi-fccm-sub">FCCM: -- &bull; Net of $1,695 fee: --</div>
+              </div>
+            </div>
+
+            <div class="results-actions">
+              <div class="filter-tabs" role="tablist" aria-label="Filter GL Lines">
+                <button type="button" class="filter-tab active" data-filter="all">All Lines (<span id="count-all">0</span>)</button>
+                <button type="button" class="filter-tab" data-filter="flagged">Red-Flagged &amp; Review (<span id="count-flagged">0</span>)</button>
+                <button type="button" class="filter-tab" data-filter="allowable">Allowable Indirect (<span id="count-allowable">0</span>)</button>
+                <button type="button" class="filter-tab" data-filter="direct">Direct Labor / Project (<span id="count-direct">0</span>)</button>
+              </div>
+
+              <div class="download-group">
+                <button type="button" class="btn btn-outline btn-sm" id="btn-download-csv">Download Line-by-Line Traceability CSV</button>
+                <button type="button" class="btn btn-outline btn-sm" id="btn-download-html">Download Printable HTML Workpaper</button>
+                <a href="#request-cta" class="btn btn-emerald btn-sm">Request $1,695 Workpaper Pack</a>
+              </div>
+            </div>
+
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Account</th>
+                    <th>Description</th>
+                    <th class="text-right">Amount</th>
+                    <th>FAR Classification</th>
+                    <th>FAR Citation</th>
+                    <th>Adjustment Basis / Notes</th>
+                  </tr>
+                </thead>
+                <tbody id="lines-tbody">
+                  <tr>
+                    <td colspan="6" style="text-align:center; color:#64748b; padding:24px;">
+                      Loading sample Trial Balance...
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="offer">
+      <div class="container">
+        <div class="section-header">
+          <h2>Transparent Fixed-Fee Workpaper Compilation</h2>
+          <p>
+            No hourly CPA overrun surprises and never percentage-based. Every dollar of our fee is structured for
+            allowability under <code>FAR 31.205-33</code>.
+          </p>
+        </div>
+
+        <div class="offer-grid">
+          <div class="price-box">
+            <span class="hero-eyebrow">FAR 31.205-33 Compliant Pricing</span>
+            <div class="price-tag">$1,695</div>
+            <div class="price-sub">
+              <strong>Fixed Non-Contingent Fee</strong> — never percentage-based and never tied to your final rate or
+              revenue uplift, preserving indirect cost allowability under <code>FAR 31.205-33</code>.
+            </div>
+
+            <ul class="deliverables-list">
+              <li>
+                <span class="deliverable-title">1. FAR 31 Cost-Pool Schedule</span>
+                <span class="deliverable-note">Direct labor base reconciliation, allowable overhead pool, and disallowed expense exclusions.</span>
+              </li>
+              <li>
+                <span class="deliverable-title">2. NCM Exec Comp Worksheet</span>
+                <span class="deliverable-note">Executive compensation cap &amp; AASHTO NCM revenue-tier reasonableness screen under FAR 31.205-6(p).</span>
+              </li>
+              <li>
+                <span class="deliverable-title">3. FCCM Computation</span>
+                <span class="deliverable-note">Facilities Capital Cost of Money schedule per FAR 31.205-10 / CAS 414 using current Treasury Prompt Payment rate.</span>
+              </li>
+              <li>
+                <span class="deliverable-title">4. AASHTO ICQ Prep Binder</span>
+                <span class="deliverable-note">Organized responses &amp; supporting schedules formatted for AASHTO Internal Control Questionnaire review.</span>
+              </li>
+              <li>
+                <span class="deliverable-title">5. Line-by-Line Adjustment Trail</span>
+                <span class="deliverable-note">Every GL account mapped to exact FAR 31.205-X citations for 18 U.S.C. § 1020 defensibility or Track B CPA handoff.</span>
+              </li>
+            </ul>
+
+            <p style="margin:0; font-size:0.83rem; color:#fde68a;">
+              <strong>Non-Audit Notice:</strong> We do not issue an audit report, CPA attestation, examination opinion, or certification.
+              Track B (&gt;= $1M / Yellow Book) firms receive pre-audit ledger cleanup to cut external CPA prep hours; your firm still engages an independent CPA for required Yellow Book examination (we do not provide attestation).
+            </p>
+          </div>
+
+          <div class="panel" id="request-cta">
+            <span class="step-label">Pre-Populated Workpaper Request</span>
+            <h3 style="margin:0 0 8px;">Request Your Full $1,695 FAR Part 31 Compilation</h3>
+            <p style="margin:0 0 16px; color:var(--text-secondary); font-size:0.9rem;">
+              No sensitive payroll files needed right now. Click below to open a pre-populated request to our isolated desk inbox
+              (<span class="mono" id="display-contact-email"></span>) carrying only your selected track and anonymous pre-scan summary.
+            </p>
+
+            <div class="param-grid" style="margin-bottom:14px;">
+              <div class="field">
+                <label for="cta-firm-name">Firm Name (optional)</label>
+                <input type="text" id="cta-firm-name" placeholder="e.g. Coastal Civil Consultants LLC">
+              </div>
+              <div class="field">
+                <label for="cta-sender-role">Your Role (optional)</label>
+                <input type="text" id="cta-sender-role" placeholder="Principal / Controller / CFO">
+              </div>
+            </div>
+
+            <div class="field" style="margin-bottom:16px;">
+              <label for="cta-preview-body">Pre-Populated Request Preview (Zero Employee PII)</label>
+              <textarea id="cta-preview-body" rows="7" class="mono" readonly style="background:#f8fafc; font-size:0.8rem;"></textarea>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+              <a id="btn-mailto-cta" href="#" class="btn btn-emerald">Open Pre-Populated Email Request</a>
+              <button type="button" class="btn btn-outline" id="btn-copy-cta">Copy Email Text &amp; Address</button>
+              <span id="copy-feedback" class="mono" style="font-size:0.82rem; color:var(--accent-emerald);"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="disclosures">
+      <div class="container">
+        <div class="section-header">
+          <h2>Mandatory Compliance, Statutory &amp; State DOT Disclosures</h2>
+          <p>Built on transparent regulatory constraints — read before submitting any state DOT rate package.</p>
+        </div>
+
+        <div class="disclosures-grid">
+          <div class="disclosure-card">
+            <h3>Non-Audit / Non-Attestation Disclaimer</h3>
+            <p>
+              <strong>Truthful Sender Identity:</strong> <span id="display-sender-identity"></span>.
+              We are NOT a US CPA firm and <strong>do not provide</strong> an audit report, CPA attestation, examination opinion, or certification.
+              Deliverables consist strictly of non-audit FAR Part 31 workpaper compilation, cost-pool schedules, and GL adjustment trails.
+            </p>
+          </div>
+
+          <div class="disclosure-card">
+            <h3>18 U.S.C. § 1020 Criminal Liability Warning</h3>
+            <p>
+              Federal-aid highway project indirect cost submissions are governed by <strong>18 U.S.C. § 1020</strong> and the federal False Claims Act.
+              Knowingly making a false statement or representation on a DOT submission carries severe criminal and civil penalties.
+              Always retain the complete line-by-line traceability trail before executing any executive self-submission.
+            </p>
+          </div>
+
+          <div class="disclosure-card">
+            <h3>FDOT Form 375-030-51 Statewide Caps (&lt;$1M)</h3>
+            <p>
+              Under Florida DOT Form 375-030-51 for contracts under $1,000,000, executive-submitted rates are subject to FDOT statewide average caps:
+              <strong>173.36% Home Office</strong>, <strong>129.20% Field Office</strong>, <strong>0.81% FCCM</strong> (Home Direct 6.35%, Field Direct 10.79%).
+              This tool truncates projected claimable rates at the applicable FDOT cap automatically.
+            </p>
+          </div>
+
+          <div class="disclosure-card">
+            <h3>NCDOT &lt;$500,000 Right-to-Audit &amp; FAR 31.205-33 Fee Rule</h3>
+            <p>
+              North Carolina DOT permits self-submitted FAR rates on projected annual contracts under $500,000, but <strong>NCDOT explicitly reserves
+              the right to require an independent CPA audit at any time</strong>. Our <strong>$1,695 fixed non-contingent fee</strong> (never percentage-based)
+              is structured to remain an allowable indirect professional service cost under <code>FAR 31.205-33</code>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>100% Browser-Local Execution &bull; Zero Server Uploads &bull; Zero Employee PII</div>
+      <div>Contact: <span class="mono" id="footer-contact-email"></span> &bull; Fixed Non-Contingent Fee: $1,695 (FAR 31.205-33)</div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="engine/far31_engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
