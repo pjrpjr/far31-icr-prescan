@@ -536,9 +536,9 @@ section {
   font-size: 0.9rem;
 }
 
-.alert strong {
+.alert > strong:first-child {
   display: block;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .alert-amber {

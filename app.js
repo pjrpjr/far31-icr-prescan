@@ -502,7 +502,7 @@
     const subject = "FAR Part 31 $1,695 Workpaper Package Request - " + (trackLabels[state.jurisdiction] || state.jurisdiction);
     if (els.btnMailtoCta) {
       els.btnMailtoCta.href =
-        "mailto:" + encodeURIComponent(email) +
+        "mailto:" + email +
         "?subject=" + encodeURIComponent(subject) +
         "&body=" + encodeURIComponent(bodyText);
     }
